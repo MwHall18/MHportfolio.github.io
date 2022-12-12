@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.indexList {
+    z-index: 1;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+#index {
+    display: inline-block;
+    text-align: left;
+}
+
+#myPic {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bio:first-line {
+    color: blueviolet;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+#text:focus {
+    background: yellow;
+    color: black;
+}
+
+#email:focus {
+    background: red;
+    color: black;
+}
+
+#textarea:focus {
+    background: blueviolet;
+    color: white;
+}
+
+div.pHolder {
+    height: 90%;
+}
+
+div.pHolder {
+    display: flex;
+  }
+  
+  .column {
+    text-align: center;
+    flex: 50%;
+  }
+
+#github {
+    cursor: pointer;
+}
+
+#ttt {
+    cursor: pointer;
+}
+
+#fb {
+    cursor: pointer;
+}

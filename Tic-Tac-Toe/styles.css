@@ -1,0 +1,41 @@
+/*used this website for a skeleton of the board set up. I didn't know how to start it so I used it to create the 9 boxes. I didn't use the website for anything else
+https://dev.to/ayushmanbthakur/how-to-make-tic-tac-toe-in-browser-with-html-css-and-js-28ed*/
+
+h1 {
+    text-align: center;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.board {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    grid-template-columns: auto auto auto;
+}
+
+.square {
+    text-align: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.playbuttons {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 45px;
+    cursor: pointer;
+}

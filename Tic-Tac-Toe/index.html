@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Hall Final Project: Tic-Tac-Toe</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <!--Favicon copy any paste-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+    <h1>Tic-Tac-Toe</h1>
+
+    <script src="index.js"></script>
+
+    <div class="game">
+
+        <h2 id="turn">Player 1 Turn</h2>
+
+        <div class="board">
+            <div class="square" id="square0"><input type="button" value="" class="playbuttons" id="button0" onclick="play0(); keepPlaying(); tie();"/></div>
+            <div class="square" id="square1"><input type="button" value="" class="playbuttons" id="button1" onclick="play1(); keepPlaying(); tie();"/></div>
+            <div class="square" id="square2"><input type="button" value="" class="playbuttons" id="button2" onclick="play2(); keepPlaying(); tie();"/></div>
+            <div class="square" id="square3"><input type="button" value="" class="playbuttons" id="button3" onclick="play3(); keepPlaying(); tie();"/></div>
+            <div class="square" id="square4"><input type="button" value="" class="playbuttons" id="button4" onclick="play4(); keepPlaying(); tie();"/></div>
+            <div class="square" id="square5"><input type="button" value="" class="playbuttons" id="button5" onclick="play5(); keepPlaying(); tie();"/></div>
+            <div class="square" id="square6"><input type="button" value="" class="playbuttons" id="button6" onclick="play6(); keepPlaying(); tie();"/></div>
+            <div class="square" id="square7"><input type="button" value="" class="playbuttons" id="button7" onclick="play7(); keepPlaying(); tie();"/></div>
+            <div class="square" id="square8"><input type="button" value="" class="playbuttons" id="button8" onclick="play8(); keepPlaying(); tie();"/></div>
+        </div>
+
+        <h3 id="winner"></h3>
+
+        <button onclick="reload()">Restart</button>
+
+    </div>
+
+</body>
+
+</html>
